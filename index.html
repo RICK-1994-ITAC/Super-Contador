@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>supercontador</title>
+    <link rel="stylesheet" href="estilo.css">
+ </head>      
+    
+<body>
+  <header>
+    <h1>Vamos Contar</h1>
+  </header>
+  <section>
+    <div id="dados">
+      <label for="cinicio"><p>Inicio: <input type="number" id="cinicio" size= "4" maxlength="4"><br></p></label>
+      <label for="cfim"><p>Fim: <input type="number" name="tfim" id="cfim"></p></label>
+      <label for="cpasso"><p>Passo: <input type="number" name="tpasso" id="cpasso"></p></label><br>
+      <input onclick="contar()" type="button" value="Contar" id="butao"><p></p>
+    </div>
+
+    <div id="calculo">
+      <p>Preencha os dados acima...</p>   
+
+    </div>
+
+
+  </section>
+
+    <footer>
+        <p>&copy;CursoemVideo</p> 
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
